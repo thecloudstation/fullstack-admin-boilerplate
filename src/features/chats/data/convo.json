@@ -1,0 +1,61 @@
+{
+  "conversations": [
+    {
+      "id": "conv1",
+      "profile": "",
+      "username": "alice_pm",
+      "fullName": "Alice",
+      "title": "Product Manager",
+      "messages": [
+        {
+          "sender": "Alice",
+          "message": "The roadmap looks good. Let me know once the sprint is planned.",
+          "timestamp": "2024-08-23T10:05:00"
+        },
+        {
+          "sender": "You",
+          "message": "Hi Alice, I just shared the updated roadmap with the team.",
+          "timestamp": "2024-08-23T10:00:00"
+        }
+      ]
+    },
+    {
+      "id": "conv2",
+      "profile": "",
+      "username": "bob_dev",
+      "fullName": "Bob",
+      "title": "Developer",
+      "messages": [
+        {
+          "sender": "You",
+          "message": "Great, I will review it this afternoon.",
+          "timestamp": "2024-08-23T11:20:00"
+        },
+        {
+          "sender": "Bob",
+          "message": "The pull request is ready for review.",
+          "timestamp": "2024-08-23T11:15:00"
+        }
+      ]
+    },
+    {
+      "id": "conv3",
+      "profile": "",
+      "username": "carol_design",
+      "fullName": "Carol",
+      "title": "Designer",
+      "messages": [
+        {
+          "sender": "Carol",
+          "message": "I updated the mockups in Figma. Take a look when you get a chance.",
+          "timestamp": "2024-08-23T14:10:00"
+        },
+        {
+          "sender": "You",
+          "message": "Hey Carol, do you have the latest design files?",
+          "timestamp": "2024-08-23T14:05:00"
+        }
+      ]
+    }
+  ]
+}

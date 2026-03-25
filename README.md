@@ -1,0 +1,132 @@
+# Fullstack Admin Boilerplate
+
+A modern admin dashboard built with React 19, Vite, and shadcn/ui. Features authentication via Better Auth, database management with Drizzle ORM, and a Hono API backend. Built with responsiveness and accessibility in mind.
+
+## Features
+
+- Light/dark mode
+- Responsive
+- Accessible
+- With built-in Sidebar component
+- Global search command
+- 10+ pages
+- Extra custom components
+- RTL support
+- Better Auth authentication
+- Drizzle ORM database management
+- Hono API backend
+- PostgreSQL database
+
+<details>
+<summary>Customized Components (click to expand)</summary>
+
+This project uses Shadcn UI components, but some have been slightly modified for better RTL (Right-to-Left) support and other improvements. These customized components differ from the original Shadcn UI versions.
+
+If you want to update components using the Shadcn CLI (e.g., `npx shadcn@latest add <component>`), it's generally safe for non-customized components. For the listed customized ones, you may need to manually merge changes to preserve the project's modifications and avoid overwriting RTL support or other updates.
+
+> If you don't require RTL support, you can safely update the 'RTL Updated Components' via the Shadcn CLI, as these changes are primarily for RTL compatibility. The 'Modified Components' may have other customizations to consider.
+
+### Modified Components
+
+- scroll-area
+- sonner
+- separator
+
+### RTL Updated Components
+
+- alert-dialog
+- calendar
+- command
+- dialog
+- dropdown-menu
+- select
+- table
+- sheet
+- sidebar
+- switch
+
+**Notes:**
+
+- **Modified Components**: These have general updates, potentially including RTL adjustments.
+- **RTL Updated Components**: These have specific changes for RTL language support (e.g., layout, positioning).
+- For implementation details, check the source files in `src/components/ui/`.
+- All other Shadcn UI components in the project are standard and can be safely updated via the CLI.
+
+</details>
+
+## Tech Stack
+
+**UI:** [shadcn/ui](https://ui.shadcn.com) (TailwindCSS + RadixUI)
+
+**Framework:** [React 19](https://react.dev/)
+
+**Build Tool:** [Vite](https://vitejs.dev/)
+
+**Routing:** [TanStack Router](https://tanstack.com/router/latest)
+
+**Authentication:** [Better Auth](https://www.better-auth.com/)
+
+**ORM:** [Drizzle ORM](https://orm.drizzle.team/)
+
+**API:** [Hono](https://hono.dev/)
+
+**Database:** [PostgreSQL](https://www.postgresql.org/)
+
+**Type Checking:** [TypeScript](https://www.typescriptlang.org/)
+
+**Linting/Formatting:** [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/)
+
+**Icons:** [Lucide Icons](https://lucide.dev/icons/), [Tabler Icons](https://tabler.io/icons) (Brand icons only)
+
+## Run Locally
+
+Clone the project
+
+```bash
+git clone <repository-url>
+```
+
+Go to the project directory
+
+```bash
+cd fullstack-admin-boilerplate
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create your environment file
+
+```bash
+cp .env.example .env
+```
+
+Push the database schema
+
+```bash
+npm run db:push
+```
+
+Start the server
+
+```bash
+npm run dev
+```
+
+## Built with
+
+- [shadcn/ui](https://ui.shadcn.com) - UI component library built on Radix UI and TailwindCSS
+- [Hono](https://hono.dev/) - Lightweight web framework for the backend
+- [Better Auth](https://www.better-auth.com/) - Authentication library
+- [Drizzle ORM](https://orm.drizzle.team/) - TypeScript ORM
+
+## License
+
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+
+---
+
+Built with shadcn/ui, Hono, Better Auth, and Drizzle ORM
